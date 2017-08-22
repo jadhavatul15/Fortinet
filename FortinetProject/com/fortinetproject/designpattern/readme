@@ -1,0 +1,12 @@
+These programs are to implementation of Factory design pattern. 
+
+Mobile.java interface defines contract that implemented by number of sub classes
+
+class Iphone, Samsung and Sony implements Mobile interface 
+
+MobileFactory.java- class defines the method, based on input it creates the object of   
+Iphone, Samsung and Sony
+
+DriverProgram.java - Instead of knowing implementation details Driver class just pass
+the string argument(SAMSUNG,IPHONE,SONY) and invokes the corresponding class methods.   
+ 
